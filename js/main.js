@@ -74,3 +74,17 @@ $(window).scroll(function(e){
 	}
 
 });
+
+
+
+const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+	fetch('https://api.countapi.xyz/update/Ayush.Yadav/profile/?amount=1')
+	.then(res => res.json())
+	.then(res => {
+		countEl.innerHTML = res.value;
+	})
+}
