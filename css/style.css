@@ -861,3 +861,29 @@
       .footer-bottom-inner p {
         font-size: 14px;
         margin-bottom: 20px; } }
+
+
+
+ .vis_counter{
+          color: #c18f59;
+          font-family: 'Muli', sans-serif;
+          flex-direction: column;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 40px;
+          margin: 0;
+        }
+        
+        h1 {
+          font-size: 25px;
+          margin: 0;
+        }
+        
+        p {
+          color: rgba(255, 255, 255, 0.8);
+          letter-spacing: 2px;
+          margin: 0;
+        }
+      }
+        
