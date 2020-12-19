@@ -502,7 +502,7 @@
 
 .site-footer {
   padding-top: 120px;
-  background-color: #141414; }
+  background-color: #3d3d3d; }
   @media (max-width: 1250px) {
     .site-footer {
       padding-top: 60px; } }
@@ -557,7 +557,7 @@
 
 .footer-bottom {
   padding: 25px 0;
-  background-color: #2d2d2d; }
+  background-color: #181818; }
 
 .footer-bottom-inner {
   display: flex;
